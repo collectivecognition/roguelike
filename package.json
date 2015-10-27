@@ -1,0 +1,32 @@
+{
+  "name": "roguelike",
+  "version": "0.0.0",
+  "description": "TODO: add description",
+  "scripts": {
+    "postinstall": "",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/.git"
+  },
+  "homepage": "https://github.com/",
+  "optionalDependencies": {},
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [],
+  "author": {
+    "name": "Will Blanchette",
+    "email": "wb@wblanchette.com",
+    "url": ""
+  },
+  "license": {
+    "type": "",
+    "url": ""
+  },
+  "engine": {
+    "node": ">=0.6"
+  }
+}
