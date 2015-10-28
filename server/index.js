@@ -1,4 +1,4 @@
-var config = require('config.js');
+var config = require('../config.js');
 
 var express = require('express');
 var io = require('socket.io')(3001);
@@ -7,11 +7,7 @@ var app = express();
 
 app.use(express.static('build'));
 
-app.get('/', function(req, res){
-  res.send('<h1>Hello world</h1>');
-});
-
-var server = app.listen(config.port, function () {
+var server = app.listen(config.port, function() {
   var host = server.address().address;
   var port = server.address().port;
 
