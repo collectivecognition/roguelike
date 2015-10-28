@@ -1,0 +1,7 @@
+{
+  "name": "roguelike",
+  "version": "0.0.0",
+  "dependencies": {
+    "rot.js": "~0.5.0"
+  }
+}
