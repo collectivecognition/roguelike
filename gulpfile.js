@@ -20,7 +20,7 @@ gulp.task('js', function(cb) {
 
 gulp.task('default', function() {
   nodemon({
-    script: 'server.index.js'
+    script: 'server/index.js'
   , tasks: ['js']
   });
 });
