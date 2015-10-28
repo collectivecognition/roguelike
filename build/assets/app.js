@@ -5238,7 +5238,7 @@ ROT.Path.AStar.prototype._distance = function(x, y) {
 	}
 }
 
-var w = 39, h = 25;
+var w = 39, h = 45;
 var dm = new ROT.Map.DividedMaze(w, h);
 
 for (var i=0; i<4; i++) {
